@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta http-equiv="refresh" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<title>Dheeraj's quote</title>
+
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Bebas Neue', sans-serif;
+			font-family: 'Dancing Script', cursive;
+			/*
+			font-family: 'Bebas Neue', sans-serif;
+			font-family: 'Dancing Script', cursive;
+			*/
+		}
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			text-align: center;
+			background:url("https://img.freepik.com/premium-photo/minimalist-abstract-paint-statue-face-ai-generative_841543-446.jpg?w=2000") no-repeat center center/cover;
+		}
+		.container{
+			width: 550px;
+			height: 450px;
+		}
+		.header{
+			font-size: 1.2rem;
+			color: #fff;
+			backdrop-filter:blur(10px);
+			padding: 5px;
+			width: 80%;
+			margin: 20px auto;
+			box-shadow: 2px 2px 4px black;
+			border-radius: 5px;
+		}
+		.main-content{
+			width: 100%;
+			height:auto;
+			backdrop-filter:blur(10px);
+			border-radius: 15px;
+			padding: 50px 40px;
+			box-shadow: 0 0 10px;
+		}
+		.main-content .text-area{
+			font-size:2.0rem;
+			line-height: 1.5;
+			color: #fff;
+			text-shadow: 2px 3px 4px black;
+		}
+		.main-content .person{
+			font-size: 1.6rem;
+			color: #FD276A;
+			text-transform: uppercase;
+			margin-left: 20px;
+		}
+		.button-area button{
+			background-color: #0C2B36;
+			color:#fff;
+			margin-top: 10px;
+			font-size:1.4rem;
+			padding: 10px 15px;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.button-area button:active{
+			background-color: #16F6FF;
+			color:#FD276A;
+		}
+	</style>
+</head>
+<body>
+
+	<!--Quote generator-->
+
+	<div class="container">
+		<div class="header">
+			<h2>Quote Generator</h2>
+		</div>
+
+		<div class="main-content">
+			<div class="text-area">
+				<span class="quote">
+					It's never too late to be what you might've been.
+				</span>
+			</div>
+			<div class="person">George Eliot</div>
+			<div class="button-area">
+				<button id="new-quote">New Quote</button>
+			</div>
+		</div>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
